@@ -1,0 +1,26 @@
+{
+  "name": "cognito-jwt-util",
+  "version": "1.0.0",
+  "description": "CLI tool to generate JWT tokens for Amazon Cognito User Pools",
+  "main": "index.js",
+  "bin": {
+    "cognito-jwt-util": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jwt",
+    "token",
+    "generator",
+    "cognito",
+    "cli"
+  ],
+  "author": "Amir Hajimirsadeghi",
+  "license": "MIT",
+  "dependencies": {
+    "amazon-cognito-identity-js": "^6.3.12",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5"
+  }
+}
