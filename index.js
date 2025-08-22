@@ -31,7 +31,7 @@ const authenticationDetails = new AuthenticationDetails({
 
 cognitoUser.authenticateUser(authenticationDetails, {
   onSuccess: (result) => {
-    console.log('JWT Token:', result.getIdToken().getJwtToken());
+    console.log(result.getIdToken().getJwtToken());
   },
   onFailure: (err) => {
     console.error('Authentication failed:', err);
