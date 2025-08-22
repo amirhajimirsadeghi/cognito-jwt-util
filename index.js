@@ -4,7 +4,7 @@ const { CognitoUserPool, CognitoUser, AuthenticationDetails } = require('amazon-
 require('dotenv').config();
 
 program
-  .version('1.0.0')
+  .version('1.0.1')
   .description('Generate JWT tokens for Amazon Cognito User Pools')
   .requiredOption('-u, --username <username>', 'Username')
   .requiredOption('-p, --password <password>', 'Password')
